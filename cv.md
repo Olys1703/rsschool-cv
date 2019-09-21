@@ -18,3 +18,7 @@ Russian (native), English (fluent)
 ##### Education:
 Samara State Aerospace University, Samara, Russia, 2014-2018,
 Robotic Process Automation
+##### Professional Experience:
+1. SCADA laboratory assistant, 2015-2018, [Samara State Aerospace University](https://ssau.ru/)
+1. Conveyor programmer, 2018-2019, [Nestle](https://www.nestle.ru/)
+1. STL, SCL, Assemler, VBA, Visual C++ Programmer, 2019, [SMS](http://www.sms-automation.ru/)
