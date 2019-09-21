@@ -48,3 +48,7 @@ FOR i:=1 TO n DO
 	END_IF
 END_FOR
 ```
+---
+#### Other contacts:
+[*E-mail*](sergeysergeevichlysenko@mail.ru) | [*VK*](https://vk.com/id67893022) | [*Twitter*]()| [*YouTube*]() | [*HeadHunter*](https://samara.hh.ru/resume/79f43948ff05aea55f0039ed1f674a4a6f4733)|
+---|---|---|---|---
