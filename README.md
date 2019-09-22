@@ -1,2 +1,2 @@
 # rsschool-cv
-"Git &amp; Markdown" task
+["Git & Markdown" task](https://olys1703.github.io/rsschool-cv/cv)
