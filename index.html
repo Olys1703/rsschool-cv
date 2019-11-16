@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet' type='text/css'/>
+  </head>
+
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <li> <a href="#cv">Сurriculum vitae</a></li> 
+            <li> <a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="vitae" id="cv">
+            <h1>Sergey Lysenko</h1>
+            <figure id="photo">
+              <img src="images/background.jpeg"  alt="Sergey Lysenko photo" height="255"/>
+            </figure>
+            <div class="container">
+                <h3>Adress:</h3>
+                <p>46, Revolucionnaya Street, Samara, Russia, 443086</p>
+                <h3>Phone number:</h3>
+                <p>+79228283226</p>
+                <h3>Career Objective:</h3>
+                <p>Interested to work as a Java Programmer in your esteemed organization skills where I can show my skills in programming to help the organization grow.</p>
+                <h3>Key Skills:</h3>
+                <p>
+                    <ul>
+                        <li>Ability to create simple but effective prorgramms management softwares using Java</li>
+                        <li>Expert in the general usage of С++ and Java</li>
+                        <li>Superior database management skills</li>
+                        <li>In depth knowledge of different procedures to be followed for data recovery in case of some crisis</li>
+                        <li>Good knowledge of connection between C++ and different softwares.</li>
+                    </ul>
+                </p>
+                <h3>Languages:</h3>  
+                <p>Russian (native), English (fluent)</p>
+                <h3>Education:</h3>
+                <p>Samara State Aerospace University, Samara, Russia, 2014-2018, Robotic Process Automation</p>
+                <h3>Professional Experience:</h3>
+                <p>
+                    <ol>
+                        <li>SCADA laboratory assistant, 2015-2018, <a href="https://ssau.ru/">Samara State Aerospace University</a></li>
+                        <li>Conveyor programmer, 2018-2019, <a href="https://www.nestle.ru/">Nestle</a></li>
+                        <li>STL, SCL, Assemler, VBA, Visual C++ Programmer, 2019, <a href="http://www.sms-automation.ru/">SMS</a></li>
+                    </ol>
+                </p>
+                <h3>Code example:</h3>
+                <pre><code>
+                        const express = require('express');
+                        const socketIO = require('socket.io');
+        
+                        const app = express();
+                        const io = socketIO.listen(app.listen(8080));
+                        
+                        app.set('views', __dirname + '/tpl');
+                        app.set('view engine', 'pug');
+                        app.engine('pug', require('pug').__express);
+                        
+                        app.use(express.static(__dirname + '/public'));
+                        
+                        app.get('/', function(req,res){
+                            res.render('page'); 
+                        });
+                    </code></pre>
+            </div>
+      </article>
+    </main>
+    <section class="supporting">
+        <h2>Contacts:</h2>
+        <div class="col">
+          <a href="https://vk.com/id67893022"> VK </a><br>
+        </div>
+        <div class="col">
+          <a href="https://samara.hh.ru/resume/79f43948ff05aea55f0039ed1f674a4a6f4733"> HeadHunter </a><br>
+        </div>
+        <div class="col" id="contacts">
+          <a href="sergeysergeevichlysenko@mail.ru"> E-mail </a><br>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; by Sergey Lysenko for RSSchool</p>
+    </footer>
+  </body>
+</html>
